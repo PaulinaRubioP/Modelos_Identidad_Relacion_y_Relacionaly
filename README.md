@@ -24,6 +24,9 @@ El proyecto busca modelar el sistema de la clínica utilizando diagramas Entidad
 
 El diagrama Entidad-Relación está implementado utilizando **Mermaid** para representar las relaciones entre las entidades de manera visual.
 
+![mermaid_Modelos Entidad](https://github.com/user-attachments/assets/c5a80f19-740d-43f8-b773-45ebacf74d6b)
+
+
 ### Ejemplo del diagrama en Mermaid
 
 erDiagram
