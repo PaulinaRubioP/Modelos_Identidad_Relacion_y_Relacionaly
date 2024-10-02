@@ -1,0 +1,37 @@
+erDiagram
+    MEDICO {
+        string Nombre
+        string RUT
+        string Direccion
+    }
+    
+    ESPECIALIDAD {
+        string Codigo
+        string Descripcion
+    }
+
+    PACIENTE {
+        string Nombre
+        string RUT
+        string Direccion
+    }
+
+    CONSULTA {
+        int id
+        date Fecha
+        time Hora_Atencion
+        int Numero_Box
+    }
+
+    LICENCIA {
+        int Codigo
+        string Diagnostico
+        date Fecha_Inicio
+        date Fecha_Termino
+    }
+
+    MEDICO ||--o{ ESPECIALIDAD: "tiene"
+    MEDICO ||--o{ CONSULTA: "realiza"
+    PACIENTE ||--o{ CONSULTA: "recibe"
+    MEDICO ||--o| LICENCIA: "entrega"
+    PACIENTE ||--o| LICENCIA: "recibe"
