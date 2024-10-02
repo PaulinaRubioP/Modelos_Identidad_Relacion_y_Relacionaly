@@ -26,7 +26,6 @@ El diagrama Entidad-Relación está implementado utilizando **Mermaid** para rep
 
 ### Ejemplo del diagrama en Mermaid
 
-```mermaid
 erDiagram
     MEDICO {
         string Nombre
